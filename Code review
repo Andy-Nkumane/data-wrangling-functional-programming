@@ -1,0 +1,16 @@
+1. Read in the dataset personality_scores.csv in this repo. 
+ - Examine the data frame for duplicates (based on ID) 
+ - Assert that the new data frame is the length of the unique entries of the original data frame.
+
+[Comment] combine some methods like df['ID'].unique() and df['ID'].unique(dropna = True) and .shape to check if there are any duplicates and to assert dataframe 
+
+
+2. Define loop in a function for (2) calculate total scores for each of the subscales (conscientiousness, emotional stability, openness to new experience, agreeableness, extraversion)
+
+3. Applies the labels "low", "medium", or "high" according to a person's score on that subscale. Cut-off scores corresponding to the low, medium and high groups can be found in scoring.md. 
+[Comment]: 'medium' label missing, I think this must be the mean. Ignore this comment if this is what was addressed in line 29
+
+4. Address this part: 'Assert that the newly created merged data frame has the same amount of rows as the department data frame, and the expected number of columns.'
+
+
+[COMMENT]: The rest of the assignment for 5,6 & 7 not completed. So far so good

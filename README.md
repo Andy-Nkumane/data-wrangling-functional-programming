@@ -1,3 +1,7 @@
+___
+Modules required are found in the text file Requirements.txt, install using command ```pip3 install -r Requirements.txt```
+___
+
 # Key concepts
 - merging data frames
 - filtering data frames
